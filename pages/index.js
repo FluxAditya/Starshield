@@ -105,7 +105,7 @@ export default function Home() {
             className={classes.home_second_img}
             src="/images/display/home.webp"
           />
-          <Link href="/knowus.pdf">
+          <Link href="">
             <div className={classes.home_second_cta + " " + classes.home_cta}>
               <h3 className="color-tertiary" style={{cursor:'pointer'}}>Contact Us!</h3>
             </div>
@@ -113,8 +113,8 @@ export default function Home() {
         </div>
         <div className={classes.home_third}>
           <h2 className={"color-secondary " + classes.home_third_text}>
-            Discuss <span className="color-tertiary">YouR Ideas • </span>Discuss{" "}
-            <span className="color-tertiary">YouR Ideas • </span>Discuss{" "}
+          Exports in 45+ Countries <span className="color-tertiary">~ Presence in 6 Countries • </span>~Indo-European Technology{" "}
+            <span className="color-tertiary">~In house Research & Testing Lab • </span>~Trust of 5000+{" "}
             <span className="color-tertiary">YouR Ideas • </span>
             Discuss <span className="color-tertiary">YouR Ideas • </span>
             Discuss <span className="color-tertiary">YouR Ideas • </span>
