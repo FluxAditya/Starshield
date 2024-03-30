@@ -1,0 +1,123 @@
+.navbar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 100;
+  width: 7rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 50% 50% 0;
+  border-right: 0.7rem solid #020001;
+  justify-content: space-between;
+}
+
+.logo {
+  align-self: center;
+  width: max-content;
+  transform: rotate(-90deg);
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.menu {
+  margin-left: 1.3rem;
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.1rem;
+  font-size: 2rem;
+  gap: 0.7rem;
+  padding-bottom: 2rem;
+}
+
+.logoanimate {
+  animation: hello 1s ease-in-out;
+}
+.navanimate {
+  animation: hello 1s ease-in-out;
+}
+
+.navigation {
+  display: flex;
+  transform: rotate(-90deg);
+  list-style: none;
+  gap: 1.8rem;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: -15rem;
+}
+
+@keyframes hello {
+  from {
+    opacity: 0;
+    transform: translateY(-5rem) rotate(-90deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0rem) rotate(-90deg);
+  }
+}
+
+@keyframes helloMobile {
+  from {
+    opacity: 0;
+    transform: translateX(-5rem) rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0rem) rotate(0deg);
+  }
+}
+/* Responsive */
+
+@media screen and (max-width: 30em) {
+  .logoanimate {
+    animation: helloMobile 1s ease-in-out;
+  }
+  .navanimate {
+    animation: helloMobile 1s ease-in-out;
+  }
+  .navbar {
+    width: 100vw;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 0 50% 50%;
+    padding: 0 3rem;
+    border-bottom: 0.7rem solid #020001;
+    border-right: none;
+    height: 7rem;
+    justify-content: center;
+  }
+  .menu {
+    position: absolute;
+    right: 2rem;
+    top: 1.5rem;
+    margin-left: 0rem;
+    padding-top: 0rem;
+  }
+  .logo {
+    width: max-content;
+    transform: rotate(0);
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .navigation {
+    transform: rotate(0);
+align-self: center;
+justify-content: left;
+    margin-bottom: 0;
+  }
+  .socials {
+    display: none;
+  }
+}

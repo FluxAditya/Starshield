@@ -1,0 +1,47 @@
+.team {
+    background-color: #020001;
+    padding: 6rem 7rem 0rem 10rem;
+    overflow-x: hidden;
+    color: rgb(221, 221, 221);
+}
+.color {
+    color: #fff;
+    text-align: center;
+}
+.primary {
+    display: grid;
+    grid-template-columns: 1fr max-content ;
+}
+.teamDiv {
+    font-size: 1.4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 65em) {
+    .team {
+        padding: 5rem 8rem;
+    }
+}
+@media screen and (max-width: 30em) {
+    .team {
+        padding: 4rem 3rem;
+    }
+    .color {
+        font-size: 4.5rem;
+    }
+    .primary {
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: max-content max-content;
+    }
+    .secondary {
+        grid-row: 2 / -1;
+        margin-top: 3rem;
+    }
+    .teamDiv {
+        font-size: 1.4rem;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: max-content max-content;
+    }
+}

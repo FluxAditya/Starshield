@@ -1,0 +1,80 @@
+.footer {
+  padding: 6rem 7rem 6rem 10rem;
+  background-image: url("../../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+.secondary {
+  margin: 0 -2rem;
+}
+.footergroup {
+  margin-bottom: 0.8rem;
+}
+.footergroup > h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.footergroup > p {
+  font-size: 1.5rem;
+}
+
+.footergroup > p > a:hover {
+  text-decoration: underline;
+}
+.logo {
+  width: 80%;
+}
+
+.socials {
+  padding-top: 1rem;
+  color: #020001;
+  padding-left: 0.3rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.icon {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 65em) {
+  .footer {
+    padding: 6rem 4rem;
+    background-position: center;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("../../img/home.jpg");
+  }
+  .socials {
+    justify-content: center;
+  }
+  .secondary {
+    margin: 0;
+    text-align: center;
+    grid-row: 1 / 2;
+  }
+  .main {
+    grid-template-columns: 100%;
+  }
+  .disclaimer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .footergroup {
+    text-align: center;
+  }
+  .logo {
+    width: 100%;
+    margin-bottom: 4.5rem;
+  }
+}

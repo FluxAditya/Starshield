@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  user-select: none;
+}
+
+a:active,
+a:link,
+a:visited {
+  color: #020001;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 30em) {
+  body {
+    overflow-x: hidden;
+  }
+}
