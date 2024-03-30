@@ -24,20 +24,20 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Geeky Vision | Home for Brand Creation</title>
+        <title>StarShield</title>
         <meta
           name="description"
-          content="Geeky Vision is your go-to media and web agency for expert Social Media Management, stunning Graphic Design and impressive Website Design. We blend geeky creativity with aesthetic finesse, delivering fun and engaging content that captivates your audience. Elevate your brand with our unique blend of expertise and creativity!"
+          content="hELLO"
         />
         {/* Social Media */}
-        <meta property="og:title" content="Geeky Vision" />
+        <meta property="og:title" content="StarShield" />
         <meta
           property="og:url"
-          content="https://www.instagram.com/geekyvision/"
+          content=""
         />
         <meta
           property="og:image"
-          content="https://geekyvision.in/brand/brand-image.png"
+          content=""
         />
         {/* Twitter */}
         <meta name="twitter:title" content="Geeky Vision | Home for Brand Creation" />
@@ -52,6 +52,18 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <section className={classes.home}>
+       
+        <div className={classes.home_second}>
+          <img
+            className={classes.home_second_img}
+            src="/images/display/home.webp"
+          />
+          <Link href="">
+            <div className={classes.home_second_cta + " " + classes.home_cta}>
+              <h3 className="color-tertiary" style={{cursor:'pointer'}}>Contact Us!</h3>
+            </div>
+          </Link>
+        </div>
         <div className={classes.home_first}>
           <div>
             <h1>What</h1>
@@ -99,17 +111,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-        <div className={classes.home_second}>
-          <img
-            className={classes.home_second_img}
-            src="/images/display/home.webp"
-          />
-          <Link href="">
-            <div className={classes.home_second_cta + " " + classes.home_cta}>
-              <h3 className="color-tertiary" style={{cursor:'pointer'}}>Contact Us!</h3>
-            </div>
-          </Link>
         </div>
         <div className={classes.home_third}>
           <h2 className={"color-secondary " + classes.home_third_text}>

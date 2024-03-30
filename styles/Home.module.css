@@ -11,6 +11,7 @@
   justify-content: flex-end;
   align-items: center;
   column-gap: 2rem;
+  margin-top: 5rem;
 }
 
 .home_first_secondary {
@@ -27,6 +28,8 @@
 
 .home_first_text {
   text-align: right;
+  font-weight: bold;
+  line-height: 2;
 }
 
 /* Second Section */
@@ -38,12 +41,12 @@
 }
 
 .home_second_img {
-  border-radius: 10rem 10rem 0 0;
-  width: 100%;
-  height: 50rem;
-  object-fit: cover;
+  border-radius: 5rem 5rem 0 0;
+  width: 150rem;
+  height: 65rem;
+  
   transition: all 0.2s ease-in-out;
-  object-position: center;
+
   z-index: 1;
   position: relative;
   border-top: 0px solid var(--color-grey);
@@ -56,7 +59,7 @@
 
 .home_second_cta {
   top: 20%;
-  left: 65%;
+  left: 80%;
 }
 
 .home_cta {
