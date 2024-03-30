@@ -141,31 +141,12 @@ const Footer = ({}) => {
           <h2 className={"color-tertiary " + classes.footer_tertiary_heading}>
             Our Branches
           </h2>
-          <p className="color-grey margin-top-large">
-            We send out our best strategies in a juciy weekly newsletter. Only
-            Value.
-          </p>
-          <Input
-            value={email}
-            type="email"
-            onChange={handleEmailChange}
-            className="margin-top-small"
-            placeholder={"Your Email Address"}
-          />
-          <div
-            className={classes.submitButton + " margin-top-small"}
-            onClick={mailHandler}
-          >
-            {loading && "Loading..."}
-            {!loading && (
-              <>
-                <div>See you in your inbox</div>
-                <div>
-                  <FaRegGrinWink />
-                </div>
-              </>
-            )}
-          </div>
+          <h3 style={{marginTop:15,marginLeft:10,color:'white',fontSize:25,padding:5}}>India Branch</h3>
+         <h3 style={{color:'white',fontSize:20,fontWeight:'normal',marginLeft:10,padding:5}}>StarShield Technologies Pvt Ltd</h3>
+        <p style={{color:'#dcdcdc',fontSize:18,fontWeight:'normal',marginLeft:10,padding:5}}>1/88, RDC, Raj Nagar, Ghaziabad,Uttar Pradesh, 201001 India</p>
+          <h3 style={{marginTop:15,marginLeft:10,color:'white',fontSize:25,padding:5}}>Dubai Branch</h3>
+         <h3 style={{color:'white',fontSize:20,fontWeight:'normal',marginLeft:10,padding:5}}>Industries Esmart International General</h3>
+        <p style={{color:'#dcdcdc',fontSize:18,fontWeight:'normal',marginLeft:10,padding:5}}>Ind eSmart International General Trading LLCOffice M12, Makateb Building, Opposite Toyota Showroom, PO Box 76118, Deira, Dubai, United Arab Emirates</p>
         </div>
       </footer>
       <div className={classes.copyright}>
