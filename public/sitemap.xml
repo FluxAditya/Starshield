@@ -9,7 +9,13 @@
 
 <url>
   <loc>https://www.geekyvision.in/</loc>
-  <lastmod>2021-07-25T14:42:44+00:00</lastmod>
+  <lastmod>2023-10-11T19:13:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.geekyvision.in/knowus.pdf</loc>
+  <lastmod>2023-10-11T19:13:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 

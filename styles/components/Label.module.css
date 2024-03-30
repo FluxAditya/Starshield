@@ -1,0 +1,42 @@
+/* Service Item */
+
+.label {
+  display: grid;
+  color: var(--color-grey);
+  font-size: 2.1rem;
+  grid-template-rows: 1fr;
+  grid-template-columns: max-content max-content;
+  grid-column-gap: 1.4rem;
+  align-items: center;
+  padding: 1.4rem 2rem;
+  border-radius: 10rem;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid var(--color-grey);
+  cursor: pointer;
+}
+
+.selected {
+  background-color: var(--color-secondary) !important;
+  border: 1px solid var(--color-secondary) !important;
+  box-shadow: 0rem 2rem 6rem rgba(255, 255, 255, 0.08);
+}
+
+.label:hover {
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+  box-shadow: 0rem 2rem 6rem rgba(255, 255, 255, 0.08);
+}
+
+.label:hover .label_icon {
+  color: var(--color-tertiary);
+}
+
+.label_text {
+  font-weight: 300;
+  transition: all 0.2s ease-in-out;
+}
+
+.label_icon {
+  line-height: 0;
+  transition: all 0.2s ease-in-out;
+}

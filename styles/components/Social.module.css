@@ -1,0 +1,30 @@
+.social {
+    border-radius: 50%;
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    line-height: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.social:hover {
+    transform: scale(1.1);
+    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+}
+
+.secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+}
+
+.tertiary {
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+}

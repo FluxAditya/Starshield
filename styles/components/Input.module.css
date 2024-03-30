@@ -1,0 +1,13 @@
+.input {
+  width: 100%;
+}
+
+.input > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-tertiary);
+}

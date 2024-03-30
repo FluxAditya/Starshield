@@ -1,74 +1,34 @@
-<h1 align="center">
-  <br>
-  <a><img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/logo.png" width="200"></a>
-</h1>
-<p align="center">
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<a href="https://threejs.org/">
-<img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/three.png" width="80">
-</a>&nbsp;
-<a href="https://reactjs.org/">
-<img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/react.png" width="100">
-</a>
-&nbsp; &nbsp;
+## Getting Started
 
-</p>
-<h4 align="center">Geeky Vision Portfolio Website Setup using <a href="https://reactjs.org/" target="_blank">React JS</a>.</h4>
+First, run the development server:
 
-<p align="center">
-  <a >
-    <img src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg">
-       
-  </a>
-  <a href="https://github.com/himakhaitan/TheChaotic/issues"><img src="https://img.shields.io/github/issues/himakhaitan/gvwebsite.svg"></a>
-  
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg">
-  </a>
-</p>
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-<p align="center">
-  <a href="#description">Description</a> •
-  <a href="#screenshot">Screenshot</a> •
-  <a href="#installation-and-setup">Installation and Setup</a> •
-  <a href="#license">License</a> • <a href="#contribution">Contribution</a>
-</p>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Description
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-This website is made using ReactJS with some of the component using ThreeJS. 🌱 Website consists contains Home section with a Hello which is made with ThreeJS. ☕ 
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The website contains About, Portfolio, Team and Contact Section. ✔
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-The website has been hosted to this [domain](https://www.geekyvision.in/) using Vercel.
+## Learn More
 
-## Screenshot
+To learn more about Next.js, take a look at the following resources:
 
-Below are some of the screenshots from Geeky Vision
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-<img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/1.png">
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-<img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/2.png">
+## Deploy on Vercel
 
-<img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/3.png">
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-<img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/4.png">
-
-<img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/5.png">
-
-## Installation and Setup
-
-- Clone the repository by `git clone https://github.com/himakhaitan/gvwebsite.git`
-- Cd into the directory `gvwebsite` using `cd gvwebsite`
-- Run `npm install`
-- To start the dev server run `npm run start`
-
-## License
-
-This project uses an [MIT](https://opensource.org/licenses/MIT) license.
-
-## Contribution
-
-<p><a href="https://github.com/himakhaitan/gvwebsite/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=himakhaitan/gvwebsite" />
-</a></p>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

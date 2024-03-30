@@ -1,0 +1,42 @@
+.btn {
+  padding: 1.8rem 3.5rem;
+  display: inline;
+  font-size: 1.6rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+}
+
+.btn:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn_content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-column-gap: 1rem;
+}
+
+.btn_icon {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+}
+
+.secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+}
+
+.tertiary {
+  background-color: var(--color-tertiary);
+  color: var(--color-primary);
+}
