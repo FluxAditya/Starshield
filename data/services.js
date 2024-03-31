@@ -66,7 +66,7 @@ export const services = {
     },
     {
       name: "Car Care",
-      image: "marketing/Car_care",
+      image: "marketing/Car_Care",
     },
     {
       name: "Construction Chemicals",
@@ -78,7 +78,7 @@ export const services = {
     },
     {
       name: "Innovative",
-      image: "marketing/Innovative",
+      image: "marketing/innovative",
     },
   
   ],
